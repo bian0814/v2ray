@@ -1,1 +1,23 @@
-fdfd
+安装 V2Ray
+
+bash <(curl -s -L https://git.io/v2ray.sh) 如果提示 curl: command not found ，那是因为你的 服务器 没安装 curl ubuntu/debian 系统安装 curl 方法: apt-get update -y && apt-get install curl -y centos 系统安装 curl 方法:yum update -y && yum install curl -y 好 curl 之后安装安装脚本了
+
+然后选择回车 传输协议，如果特别的需求，选择使用 TCP 传输协议，直接回车 选择默认端口没有，如果需要使用默认的端口，则直接返回不是车 屏蔽广告，让你真的需要，一般来说，直接回车智能
+
+如果Shadowocks ，如果不需要就直接回车，就直接输入Y回 继续继续 配置Shadowsocks 的东西端口，密码，全部加密自己看情况的话，我就直接回车，我当然是回车的方式。
+
+安装信息，如果确保没有什么问题了，按回车继续
+
+（备注，安装会因你的配置而变化。不用在此截图）)
+
+V2Ray 安装完成 OK，此时 V2Ray 已经安装完成了。
+
+如上图所示，V2Ray 配置信息，Shadowsocks 配置信息有 看看 你使用过 Shadowsocks ，那么如果现在你可以测试一下 Shadowsocks 配置了，是否可以正常使用。 你使用过 V2Ray 客户端，那么现在现在 （但可能有 V2 的选项或对雷的选项或描述不同的注释号，也已经有 V2 的配置信息，请客户端的不同，可能会测试一下。）
+
+V2Ray 客户端使用教程 V2Ray 已经安装完成了，暂停此时你尝试使用 V2Ray 来连接上的互联网了。用v2手机端或者电脑端 复制串码 到客户端 剪切板导入即可
+
+V2Ray 管理面板 v2ray现在可以试一下输入回车，可以管理V2Ray
+
+TCP 端口 如果你觉得你的小鸡出现了这种情况，那么试试使用UDP协议相关的mKCP 当然，用我的脚本那很简单啦，直接输入v2ray config然后选择V2Ray传输协议 再选择mKCP相关的提高就行 了：使用 mKCP 可能备注还可以加快，但由于 UDP 的原因可能会被运营商的 Qos，这是无解的。
+
+##记得解开防火墙限制
